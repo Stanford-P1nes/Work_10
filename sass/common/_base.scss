@@ -1,0 +1,49 @@
+@import './font';
+@import './module';
+
+// -webkit-
+// -moz-
+// -ms-
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    // outline: 1px solid red;
+}
+
+body {
+    height: 100vh;
+    font-family: $font-family;
+    color: white;
+    background-color: $color-background-primary;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1254px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    border: 0.50px solid rgba(255, 255, 255, 0.15);
+}
+
+.user-select {
+    user-select: none;
+}

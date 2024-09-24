@@ -1,0 +1,24 @@
+@import './../../common/font';
+@import './../../common/module';
+
+
+
+
+.join-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-content_title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.join-content_paragraph {
+    margin-bottom: 100px;
+    font-weight: 500;
+    width: 427px;
+    text-align: center;
+}

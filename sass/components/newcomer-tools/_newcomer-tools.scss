@@ -1,0 +1,38 @@
+@import './../../common/font';
+@import './../../common/module';
+
+.newcomer-tools {
+    width: 100%;
+    display: flex;
+    column-gap: 197px;
+}
+
+.newcomer-tools-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.newcomer-tools-text-content_title {
+    margin-bottom: 30px;
+}
+
+.newcomer-tools-text-content_paragraph {
+    margin-bottom: 60px;
+}
+
+.newcomer-tools_wrapper-card {
+    grid-template-columns: repeat(2, 288px);
+    column-gap: 24px;
+    row-gap: 70px;
+}
+
+.newcomer-tools_card {
+    width: inherit;
+    height: 284px;
+    padding: 28px 22px;
+}
+
+.newcomer-tools_card-paragraph {
+    font-size: 14px;
+    line-height: 2.14286;
+}

@@ -1,0 +1,49 @@
+// 1024px
+// 768px
+// 736px
+// 414px
+// 667px
+// 375px
+// 684px
+// 412px
+// 734px
+// 375px
+
+@media all and (max-width: 1024px) {
+    .popular-tools_wrapper-card {
+        grid-template-columns: repeat(2, 392px);
+        justify-content: center;
+        column-gap: 12.5px;
+        row-gap: 50px;
+    }
+
+    .popular-tools_load-more-button {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .wrapper-tools_paragraph {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .popular-tools_wrapper-card {
+        grid-template-columns: repeat(2, 350px);
+        justify-content: center;
+        column-gap: 12.5px;
+        row-gap: 50px;
+    }
+
+    .popular-tools_card {
+        width: inherit;
+        height: 294px;
+        padding: 33px;
+    }
+
+    .popular-tools_load-more-button {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

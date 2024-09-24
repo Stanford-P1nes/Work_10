@@ -1,0 +1,51 @@
+@import './../../common/font';
+@import './../../common/module';
+
+
+.footer-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 98px;
+}
+
+.wrapper-copyright {
+    width: 260px;
+}
+
+.footer-inner_logo {
+    margin-bottom: 25px;
+}
+
+.footer-inner_copyright {
+    margin-bottom: 21px;
+}
+
+.footer-inner_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 115px;
+}
+
+.footer-inner_row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer-inner_grid_copyright {
+    font-size: 20px;
+}
+
+.footer-inner_row_wrapper-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-text {
+    text-decoration: none;
+}
+
+

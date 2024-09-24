@@ -1,0 +1,131 @@
+@import './../../common/font';
+@import './../../common/module';
+
+
+.header-inner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+
+.wrapper-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.wrapper-menu-form {
+    display: flex;
+    align-items: center;
+    column-gap: 193px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 41px;
+    transition: transform 1.5s ease;
+}
+
+.wrapper-burder-menu {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0 15px;
+    align-items: end;
+
+    .burger-menu {
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.78;
+    }
+
+    .burger-menu-1 {
+        width: 30px;
+        transition: transform 0.5s ease;
+    }
+
+    .burger-menu-2 {
+        width: 35px;
+        transition: transform 1s ease;
+    }
+
+    .burger-menu-3 {
+        width: 40px;
+        transition: transform 1.5s ease;
+    }
+
+    &:active > .burger-menu {
+        transform: translateX(80px);
+    }
+}
+
+.link-arrow {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: -1.3rem;
+        width: 18px;
+        height: 100%;
+        background-image: url('/image/header-image/arrow.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: cover;
+        transition: transform 0.2s ease-in;
+    }
+}
+
+.header-content-inner {
+    width: 100%;
+    padding-top: 76px;
+}
+
+.header-wrapper-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-content_heading {
+    max-width: 600px;
+    margin-top: 46px;
+    margin-bottom: 30px;
+}
+
+.wrapper-content_heading span {
+    color: $color-button;
+}
+
+.wrapper-content_paragraph {
+    max-width: 487px;
+    margin-bottom: 60px;
+}
+
+.wrapper-content_wrapper-form-input {
+    margin-bottom: 110px;
+}
+
+.wrapper-social {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.social-icon {
+    width: 58px;
+    height: 58px;
+}
+
+.background-picture {
+    position: absolute;
+    top: 0;
+    left: 740px;
+    user-select: none;
+}

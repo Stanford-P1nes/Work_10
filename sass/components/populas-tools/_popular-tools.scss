@@ -1,0 +1,71 @@
+@import './../../common/font';
+@import './../../common/module';
+
+
+.popular-tools {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.wrapper-tools_title {
+    margin-bottom: 25px;
+}
+
+.wrapper-card {
+    width: 100%;
+    display: grid;
+}
+
+.popular-tools_wrapper-card {
+    grid-template-columns: repeat(3, 392px);
+    column-gap: 25px;
+    row-gap: 100px;
+}
+
+.popular-tools_card {
+    width: inherit;
+    height: 294px;
+    padding: 33px;
+}
+
+.wrapper-tools {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 31px;
+}
+
+.wrapper-tools_junior-font-size {
+    opacity: 0.78;
+}
+
+.wrapper-tools_visit-paragraph {
+    margin-top: 1rem;
+    opacity: 0.55;
+}
+
+.card_card-paragraph {
+    margin-bottom: 30px;
+}
+
+.wrapper-visit-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.popular-tools_load-more-button {
+    margin: 0 auto;
+    margin-top: 100px;
+}

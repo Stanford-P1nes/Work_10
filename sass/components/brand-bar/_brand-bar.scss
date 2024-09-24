@@ -1,0 +1,41 @@
+@import './../../common/font';
+@import './../../common/module';
+
+
+.brand-bar {
+    position: relative;
+    width: 100%;
+    padding: 55px 82px;
+    box-shadow: inset 0px 0px 0px 2px rgb(40, 48, 54);
+    border-radius: 25px;
+    backdrop-filter: blur(50px);
+    background: rgba(44, 53, 61, 0.2);
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -89px;
+        left: -84px;
+        width: 159px;
+        height: 159px;
+        border-radius: 100%;
+        background-color: rgb(255, 72, 66);
+        filter: blur(100px);
+    }
+}
+
+.brand-bar_junior-font-size {
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.brand-bar_wrapper-brand {
+    justify-content: space-between;
+}
+
+.wrapper-brand {
+    width: 100%;
+    display: flex;
+}
+

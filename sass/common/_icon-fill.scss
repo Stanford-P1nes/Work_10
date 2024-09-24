@@ -1,0 +1,68 @@
+.social-icon {
+    fill: white;
+    fill-opacity: 0.78;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    user-select: none;
+    cursor: pointer;
+
+    svg.svg-social {
+        position: relative;
+        width: inherit;
+        height: inherit;
+    }
+}
+
+.wrapper-icon {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.action-icon {
+    fill: white;
+    fill-opacity: 0.38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 42px;
+    height: 42px;
+    user-select: none;
+    cursor: pointer;
+
+    svg.svg-card {
+        position: relative;
+        width: 26px;
+        height: 22px;
+    }
+}
+
+.brand-icon {
+    fill: white;
+    fill-opacity: 0.2;
+    height: 51px;
+    
+    &:nth-child(1) {
+        width: 193px;
+    }
+
+    &:nth-child(2) {
+        width: 157px;
+    }
+
+    &:nth-child(3) {
+        width: 194px;
+    }
+
+    &:nth-child(4) {
+        width: 194px;
+    }
+
+    svg.svg-brand {
+        position: relative;
+        width: inherit;
+        height: inherit;
+    }
+}

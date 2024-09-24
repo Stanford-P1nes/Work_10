@@ -1,0 +1,29 @@
+// 1024px
+// 768px
+// 736px
+// 414px
+// 667px
+// 375px
+// 684px
+// 412px
+// 734px
+// 375px
+
+@media all and (max-width: 768px) {
+    .slider {
+        zoom: 0.7;
+        -ms-zoom: 0.7;
+    }
+
+    .image-staff {
+        object-fit: cover;
+        // zoom: 0.5;
+    }
+
+    .wrapper-pagination-rectangle {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        column-gap: 18px;
+    }
+}

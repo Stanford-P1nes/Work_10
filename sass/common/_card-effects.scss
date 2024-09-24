@@ -1,0 +1,68 @@
+.card {
+    position: relative;
+    transition: backdrop-filter 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    opacity,
+    color 0.2s ease;
+    overflow: hidden;
+    border-radius: 15px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        right: 16px;
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+        background-color: rgba(255, 110, 48, 0.6);
+        filter: blur(50px);
+        z-index: -1;
+        opacity: 0;
+    }
+
+    &:hover {
+        box-shadow: inset 0px 0px 0px 2px rgb(40, 48, 54);
+        backdrop-filter: blur(50px);
+        background-color: rgba(40, 48, 54, 0.6);
+        transform: translateY(-20px);
+
+        .wrapper-tools_junior-font-size {
+            opacity: 1;
+        }
+
+        .wrapper-tools_visit-paragraph {
+            opacity: 1;
+        }
+
+        .card_card-paragraph {
+            opacity: 1;
+        }
+
+        .visit-effect {
+            color: $color-font-submit-button;
+            background-color: $color-button;
+            opacity: 1;
+            transition: background-color 0.2s ease;
+        }
+
+        &::after {
+            opacity: 1;
+        }
+    }
+}
+
+.like-effect {
+    fill: #FD3B41;
+    fill-opacity: 1;
+    box-shadow: 0 5px 10px -3px rgba(18, 18, 18, 0.15);
+    background-color: $color-icon-card-active;
+}
+
+.add-file-effect {
+    fill: $color-button;
+    fill-opacity: 1;
+    box-shadow: 0 5px 10px -3px rgba(18, 18, 18, 0.15);
+    background-color: $color-icon-card-active;
+}

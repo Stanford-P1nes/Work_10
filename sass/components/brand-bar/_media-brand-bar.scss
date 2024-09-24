@@ -1,0 +1,40 @@
+// 1024px
+// 768px
+// 736px
+// 414px
+// 667px
+// 375px
+// 684px
+// 412px
+// 734px
+// 375px
+
+@media all and (max-width: 768px) {
+    .brand-bar {
+        position: relative;
+        padding: 55px 15px;
+    }
+
+    .brand-bar_wrapper-brand {
+        justify-content: none;
+        column-gap: 100px;
+        position: absolute;
+        bottom: 30px;
+        justify-content: start;
+        overflow: hidden;
+        animation-name: scroll-bar;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes scroll-bar {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(100%);
+        }
+    }
+}
